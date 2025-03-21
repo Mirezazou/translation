@@ -348,6 +348,7 @@
       "TITLE": "Crédits",
       "TOAST_RENEW": "Vos crédit sont utilisés automatiquement lorsque votre abonnement se renouvellera.",
       "TOAST_SUBSCRIBE": "Vos crédits seront utilisés automatiquement lorsque vous souscrirez à RemNote Pro. Choisissez un plan ci-dessous et commencez maintenant !",
+      "TOTAL_MONTHS_EARNED": "Nombre total de mois en Pro gagnés",
       "VERIFY_EMAIL": "Pour inviter quelqu'un, validez votre adresse mail.",
       "CREDIT_BALANCE": "Solde de Crédits",
       "CREDIT_BALANCE_TEXT": "Vous avez <bold>{{userCredit}}</bold> crédits restant et avez gagné <bold>{{userCreditEarned}}</bold> crédits au total. {{months}} mois restants ou mois de Remnote Pro gratuits.<br /><br />Abonnez-vous à Pro pour commencer à utiliser vos crédits ! Vous ne serez facturé que quand vos crédits seront épuisés."
@@ -567,6 +568,137 @@
       "ENTER_TO_OUTDENT": {
         "LABEL": "Lorsque vous appuyez sur Entrée sur un Rem sans contenu qui n'est pas au niveau supérieur du document, indentez d'un niveau. (Si cette option est désactivée, reste au même niveau et laisse un Rem vide.)",
         "TITLE": "Appuyer sur Entrée pour désindenter"
+      },
+      "SPLIT_WITH_ALT_ENTER": {
+        "DESCRIPTION": {
+          "MAC": " Divisez le texte en Rems distincts en appuyant sur Opt+Retour à partir du milieu de Rem.",
+          "PC": "Divisez le texte en Rems distincts en appuyant sur Alt+Entré à partir du milieu de Rem."
+        },
+        "TITLE": {
+          "MAC": "Diviser avec Opt+Retour",
+          "PC": "Diviser avec Alt+Entrée"
+        }
+      }
+    },
+    "NOTIFICATIONS": {
+      "DESCRIPTIONS": {
+        "ARTICLE_VIEWS": {
+          "LABEL": "Le document que vous avez partagé est en train de devenir populaire ",
+          "TITLE": "Notifications de visite d'un document "
+        },
+        "DOCUMENT_ADDED_TO_GROUP": {
+          "LABEL": "Un document est ajouté à un groupe dont vous êtes membre ",
+          "TITLE": "Document ajouté à la notification de groupe"
+        },
+        "INVITE": {
+          "LABEL": "Vous avez été invité à rejoindre un groupe ",
+          "TITLE": "Notifications d'invitation"
+        },
+        "NEW_COMMENT": {
+          "LABEL": "quelqu'un a laissé un commentaire sur un document que vous avez partagé ",
+          "TITLE": "Notifications de commentaires"
+        },
+        "NEW_FOLLOWER": {
+          "LABEL": "Quelqu'un vous a suivit ",
+          "TITLE": "Notifications des abonnés"
+        },
+        "NEW_LIKE": {
+          "LABEL": "Quelqu'un a aimé un document que vous avez partagé ",
+          "TITLE": "Notifications \"j'aime\""
+        },
+        "STREAK": {
+          "LABEL": "Recevez des notifications quotidiennes pour maintenir votre flamme d'étude !",
+          "TITLE": "Notifications "
+        }
+      },
+      "ENABLE_COMMUNITY_LABEL": "Recevez une notification dans l'application lorsque quelqu'un interagit avec votre profil communautaire",
+      "ENABLE_COMMUNITY_TITLE": "Notifications communautaires",
+      "ENABLE_DUE_CARDS_LABEL": "Afficher le nombre total de cartes dues sous forme de badge sur l'icône de l'application RemNote",
+      "ENABLE_DUE_CARDS_TITLE": "Badge de cartes dues",
+      "ENABLE_EMAIL_LABEL": "Recevoir directement des notifications en privé ",
+      "ENABLE_EMAIL_TITLE": "Activer les notifications de la communauté par e-mail",
+      "ENABLE_EXAM_TITLE": "Rappels d'examen",
+      "ENABLE_EXAM_DESCRIPTION": "Recevez des e-mails si vous êtes en retard dans la préparation d'un examen",
+      "ENABLE_PUSH_LABEL": "Recevez des notifications directement sur votre appareil",
+      "ENABLE_PUSH_TITLE": "Notifications pop-up ",
+      "ENABLE_STREAK_DESCRIPTION": "Recevez un rappel à 18h si vous devez encore vous entraîner pour maintenir votre flamme d'étude",
+      "ENABLE_STREAK_TITLE": "Notifications des Flammes",
+      "PUSH_ENABLE_MESSAGE": "Les notifications pop up ne sont pas configurées sur cet appareil. Cliquez ici pour les configurer !",
+      "TOGGLE_LABEL": "Contrôlez les notifications que vous souhaitez recevoir directement sur votre appareil",
+      "TOGGLE_TITLE": "Notifier quand :"
+    },
+    "PLANS": {
+      "TITLE": "Plans"
+    },
+    "SIDEBAR": {
+      "DOCUMENT_STATUSES": {
+        "LABEL": "Organisez les documents dans les catégories Brouillon, Terminé et Épinglé.",
+        "TITLE": "Statuts des documents"
+      },
+      "PRIVACY_NOTE": "Confidentialité : Lisez notre<policyLink> politique de confidentialité</policyLink> , ou modifiez vos paramètres dans notre<hubLink> Centre de confidentialité</hubLink> .",
+      "SORT_SIDEBAR": {
+        "KEYWORDS": "organiser les barres latérales trier de A à Z"
+      }
+    }
+  },
+  "SIDEBAR": {
+    "LABEL_ALL_NOTES": "Toutes les notes",
+    "LABEL_COMMUNITY": "Flashcards partagées",
+    "LABEL_EDIT_LATER": "Modifier plus tard",
+    "LABEL_FLASHCARDS": "Flashcards",
+    "LABEL_ONBOARDING_CALL": "Organiser un appel d'intégration",
+    "LABEL_TODAYS_NOTE": "Note du jour",
+    "LABEL_TUTORIALS": "Tutoriels"
+  },
+  "SOURCES": {
+    "LINK_SOURCE": {
+      "ENTER_URL": "Entrez l'URL",
+      "EMBED_LINK": "Lien intégré",
+      "INVALID_URL": "URL invalide",
+      "LABEL": "Lien vers une source existante",
+      "LINK": "Lien",
+      "LINK_WITH_COUNT_one": "{{count, number}} Lien",
+      "LINK_WITH_COUNT_other": " {{count, number}} Liens",
+      "OPEN_IN_READER": "Ouvrir dans Lecteur"
+    },
+    "UPLOAD_SOURCE": {
+      "EMPTY": "Supprimez les fichiers PDF, les documents Word, les PPT et<moreLink> plus</moreLink> ici!",
+      "IMPORT_INSTEAD": "RemNote n'accepte pas les téléchargements de fichiers de ce type. Cependant, nous pourrions importer les notes ou les fiches de ce fichier ! Essayez de sélectionner « Importer » dans le menu du compte en haut à gauche.",
+      "INVALID": "Désolé, RemNote ne peut pas accepter les téléchargements de fichiers de ce type.",
+      "LABEL": "Ajouter une source",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF",
+      "SELECT_FILES": "Sélectionner les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionnez les fichiers à télécharger",
+      "UPLOAD": "Télécharger",
+      "UPLOADING": "Téléchargement en cours..."
+    },
+    "WIKIMEDIA_COMMONS": {
+      "EMPTY": "Supprimez les fichiers PDF, les documents Word, les PPT et<moreLink> plus</moreLink> ici!",
+      "INVALID": "Format de fichier incorrect !",
+      "LABEL": "Recherche d'images",
+      "PDF": "PDF",
+      "PDF_WITH_COUNT_one": "{{count, number}} PDF",
+      "PDF_WITH_COUNT_other": "{{count, number}} PDF",
+      "SELECT_FILES": "Sélectionner les fichiers",
+      "SELECT_FILES_TO_UPLOAD": "Sélectionnez les fichiers à télécharger",
+      "UPLOADING": "Téléchargement en cours..."
+    }
+  },
+  "TABLES": {
+    "MENUS": {
+      "FILTER": {
+        "ADD_ADVANCED_FILTER": "Ajouter un filtre avancé",
+        "FILTER_TITLE": "Filtre",
+        "NO_PROPERTIES_AVAILABLE": "Aucune propriété n'est disponible ; ajoutez-en une nouvelle !"
+      },
+      "SORT": {
+        "SORT_TITLE": "Trier"
+      },
+      "TABLE_CONFIGURATION": {
+        "ADD_LIST_VIEW_TITLE": "Ajouter une vue de liste",
+        "ALL": "Tous"
       }
     }
   },
